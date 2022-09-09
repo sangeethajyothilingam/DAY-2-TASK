@@ -1,0 +1,14 @@
+Difference between HTTP/1.1 and HTTP/2 are:
+
+HTTP/1.1
+
+Ithe usest works on the textual format.	
+There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.	
+It uses requests resource Inlining for use getting multiple pages	
+It compresses data by itself.
+
+HTTP/2
+It works on the binary protocol.
+It allows multiplexing so one TCP connection is required for multiple requests.
+It uses PUSH frame by server that collects all multiple pages 
+It uses HPACK for data compression.

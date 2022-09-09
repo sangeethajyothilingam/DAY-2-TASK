@@ -1,0 +1,9 @@
+Window object −
+ Top of the hierarchy.
+ It is the outmost element of the object hierarchy. 
+
+Document object −
+ Each HTML document that gets loaded into a window becomes a document object. 
+ The document contains the contents of the page.
+
+objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. 
